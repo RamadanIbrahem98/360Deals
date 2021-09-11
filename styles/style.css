@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  display: grid;
+}
+
+.main-nav {
+  height: 80px;
+  background: linear-gradient(to left, #E9F7FE, #F3F3FF);
+  box-shadow: 0px 16px 40px 0px rgb(112, 144, 176, 0.2);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-nav__icon-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-basis: 162px;
+}
+
+.main-nav__icon {
+  background-image: url("../assets/D360L.svg");
+  display: inline-block;
+  width: 162px;
+  height: 56px;
+}
+
+.util__vertical-line {
+  border-left: 1px solid #333;
+  height: 24px;
+  display: inline-block;
+}
+
+.main-nav__links-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_nav__links {
+  display: flex;
+  list-style: none;
+}
+
+.main_nav__links a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.main_nav__links a:hover {
+  color: #4BBEF7;
+}
+
+.main-nav__search-bar-section {
+  border-radius: 20px;
+  background: linear-gradient(to left, rgba(75, 190, 247, 0.12), rgba(156, 157, 254, 0.12));
+  flex-basis: 476px;
+  flex-shrink: 2.5;
+}
+
+.main-nav__search-bar-icon {
+  color: #4BBEF7;
+  padding: 12px 6px 12px 12px;
+}
+
+.main-nav__search-bar-area {
+  padding: 12px 12px 12px 6px;
+  color: inherit;
+  background: none;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.main-nav__list-property-section {
+  display: flex;
+  background: linear-gradient(45deg, #4BBEF7, #9C9DFE);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.main-nav__list-property-icon {
+  background-image: url("../assets/Mask Group 526.svg");
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  margin: 12px 8px 12px 36px;
+}
+
+.main-nav__list-property-text {
+  color: #fff;
+  margin: 12px 35px 12px 8px;
+}
+
+.main-nav_notification-section {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.main-nav_notification-outer {
+  background-color: #00ACF5;
+  opacity: 10%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  z-index: 1;
+}
+
+.main-nav_notification-inner {
+  background: linear-gradient(to right, #8080FF, #44ACF5);
+  opacity: 15%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  z-index: 3;
+}
+
+.main-nav_notification-icon {
+  background-image: url("../assets/notification.svg");
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 4;
+}
+
+.main-nav__profile-toggling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav__profile-pic-section {
+  background-color: #E5F7FE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-nav__profile-pic-outer-border {
+  width: 64px;
+  height: 64px;
+  border-radius: 64px;
+  border: 3px solid #9C9DFE;
+  background-color: #FFF;
+  position: absolute;
+}
+
+.main-nav__profile-pic-img {
+  background-image: url("../assets/profile.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  border: 3px solid #9C9DFE;
+  position: relative;
+}
+
+.main-nav__profile-toggle {
+  padding-left: 10px;
+}

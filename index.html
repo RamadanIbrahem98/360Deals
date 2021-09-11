@@ -5,9 +5,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>360 Deals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/colors.css">
 </head>
 <body>
-  
+  <div class="main-container">
+    <nav class="main-nav">
+      <div class="main-nav__icon-section">
+        <div class="main-nav__icon"></div>
+      </div>
+      <!-- <div class="util__vertical-line"></div> -->
+      <div class="main-nav__links-section">
+        <ul class="main_nav__links">
+          <li class="main-nav__link"><a class="cu-333" href="#">Home</a></li>
+          <li class="main-nav__link"><a class="cu-333" href="#">Properties <div class="fa fa-angle-down"></div></a></li>
+          <li class="main-nav__link"><a class="cu-333" href="#">Explore <div class="fa fa-angle-down"></div></a></li>
+        </ul>
+      </div>
+      <div class="main-nav__search-bar-section">
+        <i class="fa fa-search main-nav__search-bar-icon"></i>
+        <input type="text" name="query" placeholder="Search..." class="main-nav__search-bar-area">
+      </div>
+      <!-- <div class="util__vertical-line"></div> -->
+      <div class="main-nav__list-property-section">
+        <i class="main-nav__list-property-icon"></i>
+        <div class="main-nav__list-property-text">List Your Property</div>
+      </div>
+      <div class="main-nav_notification-section">
+        <div class="main-nav_notification-outer"></div>
+        <div class="main-nav_notification-inner"></div>
+        <div class="main-nav_notification-icon"></div>
+      </div>
+      <div class="main-nav__profile-toggling">
+        <div class="main-nav__profile-pic-section">
+          <div class="main-nav__profile-pic-outer-border"></div>
+          <div class="main-nav__profile-pic-img"></div>
+        </div>
+      <div class="fa fa-angle-down main-nav__profile-toggle"></div>
+    </div>
+    </nav>
+  </div>
 </body>
 </html>
